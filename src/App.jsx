@@ -8,6 +8,8 @@ import ThirdForm from "./form-object"
 import FourForm from "./fourForm"
 import FiveForm from "./FiveForm"
 import FormikForm from "./component/formik-form"
+import FormValidation from './component/form-validation'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,6 +29,11 @@ function App() {
 
       <h2>Form-validation With Fomik</h2>
       <FormikForm />
+
+      <h2>Form Validation With Formik And Yup</h2>
+      <FormValidation/>
+
+
 
     </>
   )

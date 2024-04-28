@@ -5,6 +5,8 @@ import {useFormik} from 'formik'
 const FormikForm = ()=>{
 
 
+  
+   
 
     const formik = useFormik({
         initialValues: {
@@ -13,7 +15,7 @@ const FormikForm = ()=>{
            password: '',
           },
           onSubmit: values => {
-           console.log(values.name, values.email);
+           console.log(values);
           },
 
     })
