@@ -7,8 +7,7 @@ import SecondForm from "./2ndFormHandle"
 import ThirdForm from "./form-object"
 import FourForm from "./fourForm"
 import FiveForm from "./FiveForm"
-
-
+import FormikForm from "./component/formik-form"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,6 +24,10 @@ function App() {
       <FourForm />
       <h2>Singel UseState ANd Singel Event Handaling For Better Practices</h2>
       <FiveForm />
+
+      <h2>Form-validation With Fomik</h2>
+      <FormikForm />
+
     </>
   )
 }

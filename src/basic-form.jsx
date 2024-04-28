@@ -23,7 +23,7 @@ function BasicForm() {
     <form action="" onSubmit={submitData}>
          <div>
             <label htmlFor="name" name="name">Name : </label>
-            <input type="text" name="name"   onChange={nameVallueHandle}/>
+            <input type="text" name="name"   onChange={nameVallueHandle} />
          </div>
          <br/>
          <div>

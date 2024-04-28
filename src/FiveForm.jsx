@@ -11,7 +11,7 @@ function FiveForm() {
     const fileldName = e.target.name;
     setFormVallue( {...formVallue, [e.target.name]:e.target.value})  
   }
-  
+
   const vallueSubmit = (e)=>{
    e.preventDefault()
    console.log(formVallue);
@@ -35,7 +35,7 @@ function FiveForm() {
       </div>
 
       <div>
-         <button type="submit">Submit Data</button>
+         <button type="submit" disabled >Submit Data</button>
       </div>
 
     </form>
